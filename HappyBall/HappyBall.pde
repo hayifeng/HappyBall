@@ -34,10 +34,10 @@ void draw() {
 }
 
 void initialScreen() {
-  textSize(32);
-  text("Flappy Ball", (window_width/2)-80, (window_height/2)-70);
-  textSize(16);
-  text("Press <SPACE> to play!", (window_width/2)-85, (window_height/2)-10);
+  textSize(60);
+  text("Flappy Ball", width/3, height/2-100);
+  textSize(30);
+  text("Press <SPACE> to play!", width/3, height/2+100);
   
 }
 
